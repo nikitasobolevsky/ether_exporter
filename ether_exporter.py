@@ -30,7 +30,7 @@ def _settings():
             'listen_address': '127.0.0.1'
         },
     }
-    config_file = '/etc/ether-exporter.yml'
+    config_file = '/etc/ether_exporter.yml'
     cfg = {}
     if os.path.isfile(config_file):
         with open(config_file, 'r') as ymlfile:
